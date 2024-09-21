@@ -1,0 +1,32 @@
+.cabecera{
+    max-width:1200px;
+    min-width: 120px;
+}
+
+.menu{
+    aspect-ratio: 3/4;
+}
+
+.aside{
+    aspect-ratio: 1/4;
+}
+
+.pie_1{
+    aspect-ratio: 1/2;
+}
+
+.pie_2{
+    aspect-ratio: 1/2;
+    min-height: 80px;
+    max-height: 80px;
+}
+
+.logo{
+    height: 60px;
+    width: 60px;
+}
+
+.title{
+    text-align: center;
+    font-size: 25rem;
+}
