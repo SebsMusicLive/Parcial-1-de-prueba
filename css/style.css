@@ -5,6 +5,7 @@
 
 .menu{
     aspect-ratio: 3/4;
+    padding: 10px;
 }
 
 .aside{
@@ -28,7 +29,7 @@
 
 .title{
     text-align: center;
-    font-size: 25rem;
+    font-size: 2.5rem;
 }
 
 .lista_de_contactos{
@@ -37,4 +38,37 @@
 
 .subtitle{
     font-size: 1.5rem bold;
+}
+
+.container-footer{
+    display: grid;
+  grid-template-columns: 1fr 1fr; /* Dos columnas de igual tamaño */
+  gap: 20px; /* Espacio entre los elementos */
+}
+
+.contenido-principal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-contenido{
+    height:300px;
+    width: 320px;
+    padding: 2%;
+}
+
+.parrafo-noticioa-principal{
+    padding: 2%;
+    padding-right: 3%;
+    text-align: justify;
+}
+
+.noticias-secundarias{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.noticia{
+    padding: 2%;
 }
